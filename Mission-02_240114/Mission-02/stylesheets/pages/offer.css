@@ -1,0 +1,138 @@
+/* 오늘의 쇼핑 제안 */
+
+.container {
+    width: 1022px;
+    margin: 0 auto;
+}
+
+header {
+    margin-top: 100px;
+    margin-bottom: 48px;
+}
+
+header a {
+    display: block;
+}
+
+header a img {
+    width: 176px;
+    height: 40px;
+
+}
+
+section {
+    padding-bottom: 30px;
+}
+
+h2 {
+    display: flex;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+
+h2 span {
+    background-image: url("/./assets/icon/shopping.svg");
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 200px;
+    height: 270px;
+}
+
+
+
+.flex-item img:first-child{
+    margin: 14px 20px 0 20px;
+    width: 160px;
+    height: 160px;
+    margin-bottom: 12px;
+}
+
+.discount {
+    position: absolute;
+    left: 0;
+    top:0;
+    width: 53px;
+    height: 30px;
+    background-color: var(--color-red-500);
+    border-bottom-right-radius: 4px;
+    color: var(--color-white);
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 30px;
+}
+
+.rocket {
+    width: 55px;
+    height: 16px;
+}
+
+.product-detail {
+    padding: 12px 14px 17px 14px;
+    font-size: 14px;
+    width: 100%;
+}
+
+.title {
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 17px;
+    text-wrap: nowrap;
+    white-space: nowrap;
+    margin-bottom: 12px;
+}
+
+.title, .review div{
+    font-weight: 400;
+}
+
+.rating-4-5 {
+    display: inline-block;
+    width: 68px;
+    height: 13px;
+    background-image: url(/./assets/sprites/rating-stars.png);
+    background-position: 0 -126px;
+    background-repeat: no-repeat;
+}
+
+.rating-4 {
+    display: inline-block;
+    width: 68px;
+    height: 13px;
+    background-image: url(/./assets/sprites/rating-stars.png);
+    background-position: 0 -112px;
+    background-repeat: no-repeat;
+}
+
+.rating-5 {
+    display: inline-block;
+    width: 68px;
+    height: 13px;
+    background-image: url(/./assets/sprites/rating-stars.png);
+    background-position: 0 -140px;
+    background-repeat: no-repeat;
+}
+.ship{
+    margin-bottom: 4px;
+    color: var(--color-gray-700);
+}
+
+.review-count{
+    margin-right: 4px;
+    color: var(--color-gray-700);
+}

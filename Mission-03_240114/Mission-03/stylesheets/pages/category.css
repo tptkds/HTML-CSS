@@ -1,0 +1,232 @@
+/* 카테고리별 추천 광고상품 */
+header {
+    margin-top: 100px;
+    margin-bottom: 48px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1020px;
+    margin-bottom: 100px;
+}
+
+.left-open-arrow {
+    background-image: url(../../assets/icon/angle-right-default.svg);
+    width: 6px;
+    height: 10px;
+    display: inline-block;
+    margin-left: 4px;
+}
+
+.category-best-product {
+    display: flex;
+    height: 634px;
+}
+
+.category-best-product-left{
+    width: 172px;
+}
+
+.category-best-product-middle {
+    position: relative;
+    width: 320px;
+}
+
+.category-best-product-right {
+    position: relative;
+    width: 528px;
+    
+}
+
+.category-best-headline {
+    margin-bottom: 24px;
+}
+
+
+.category-best-headline p{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.category-best-headline h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--color-back);
+}
+
+.category-best-headline h2 span {
+    color: var(--color-blue-600);
+}
+
+.category-best-section {
+    border-top: 1.17px solid var(--color-brown-300);
+    border-bottom: 1.17px solid var(--color-brown-300);
+}
+
+article {
+    padding-left: 24px;
+}
+
+article h3 {
+    margin-top: 48px;
+    margin-bottom: 8px;
+    color: var(--color-brown-300);
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.go-link {
+    color: var(--color-gray-700);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.hashtag-box{
+    margin-top: 248px;
+}
+
+.hashtag-box h4 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.hashtag-list {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.hashtag a {
+    margin-bottom: 12px;
+    color: var(--color-brown-300);
+    font-size: 12px;
+    font-weight: 400;
+    border: 1px solid var(--color-gray-500);
+    display: inline-block;
+    padding: 5px 10px;
+    height: 26px;
+}
+
+.cetegory-best-banner-text {
+    width: 260px;
+    height: 90px;
+    background-color: var(--color-brown-300);
+    position: absolute;
+    bottom: 58px;
+    left: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cetegory-best-banner-text p:nth-child(2){
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+.indicater-box {
+    position: absolute;
+    bottom: 58px;
+    left: 144px;
+    bottom: 24px;
+}
+
+.indicater {
+    border: 0;
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    background-color: var(--color-gray-600);
+    margin-right: 8px;
+}
+
+.indicater-active{
+    background-color: var(--color-gray-700);
+}
+
+.product-list {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap
+}
+
+.product-card {
+    width: 160px;
+    height: 300px;
+    margin-top: 9px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+}
+.product-img {
+    width: 160px;
+    height: 160px;
+}
+
+.product-card h4 {
+    margin-top: 12px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+
+.price {
+    font-size: 14px;
+    font-weight: 400;
+}
+.price strong{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.price-feature {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--color-red-500);
+}
+
+.price-and-delivery {
+    display: flex;
+    align-items: center;
+}
+.delivery {
+    margin-left: 6px;
+}
+
+.category-best-section:nth-child(3) h3 {
+    color: var(--color-green-700);
+}
+
+.category-best-section:nth-child(3) .cetegory-best-banner-text {
+    background-color: var(--color-green-700);
+}
+.category-best-section:nth-child(3) .hashtag a {
+    color: var(--color-green-700);
+}
+
+.category-best-section:nth-child(3){
+    margin-top: 24px;
+    border-top: 1.17px solid var(--color-green-700);
+    border-bottom: 1.17px solid var(--color-green-700);
+}
+
+.product-list::after {
+    content: "";
+    width: 528px;
+    height: 0.5px;
+    background-color: var( --color-gray-600);
+    position: absolute;
+    top: 316.53px;
+
+}

@@ -1,0 +1,47 @@
+*, *::before, *::after{
+  box-sizing: border-box;
+}
+
+body {
+  font: 1.6rem/1.15 var(--font-family);
+}
+
+a{
+  color: black;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+a img {
+  vertical-align: middle;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+figure{
+  margin: 0;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+ul,li, a,p,h3,h2 {
+  margin:0;
+  padding: 0;
+}
+
+address {
+  font-style: normal;
+}

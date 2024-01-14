@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+
+<head>
+  <meta charset="UTF-8" >
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+  <title>헤더 - 쿠팡(Coupang)</title>
+  <link rel="icon" href="/assets/favicon/favicon.png" >
+  <link rel="preconnect" href="https://fonts.googleapis.com" >
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet" >
+  <link rel="stylesheet" href="/stylesheets/main.css" >
+  <script src="/js/main.js" defer></script>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <div class="login-bar">
+        <ul>
+          <li class="right-link"><a href="/">로그인</a></li>
+          <li class="right-link"><a href="/">회원가입</a></li>
+          <li class="right-link mg-r-0"><a href="/">고객센터</a></li>
+          <li class="left-link"><a href="/">쿠팡플레이</a></li>
+          <li class="left-link"><a href="/">제휴마케팅</a></li>
+        </ul>
+      </div>
+
+      <div class="header-bottom">
+        <div class="header-bottom-left">
+          <button class="button--category">카테고리</button>
+        </div>
+        <h1>
+          <a href="https://www.coupang.com/" target="_blank" rel="noopener"> </a>
+          Coupang
+        </h1>
+        <form>
+          <fieldset>
+            <legend>상품검색</legend>
+            <div class="search-form">
+              <div class="search-form-left">
+                <select>
+                  <option disabled selected>전체</option>
+                </select>
+                <button class="dropbown-button">
+                  <svg width="9" height="6" viewBox="0 0 9 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9 0H0L4.69565 6L9 0Z" fill="#767676"/>
+                  </svg>
+                </button>
+              </div>
+              <label for="searchKeyword">
+                <input type="search" id="searchKeyword" name="q" title="쿠팡 상품 검색" placeholder="찾고 싶은 상품을 검색해 보세요!" class="search-input" required >
+              </label>
+              <button class="voice-search" aria-label="쿠팡 상품 음성으로 검색하기" title="음성검색"></button>
+              <button class="search-button" title="검색" aria-label="상품 검색하기"></button>  
+            </div>
+          </fieldset>
+        </form>
+        
+        <div class="myCoupang">
+          <button onclick="handleOnClickMyCoupang">마이쿠팡</button>
+          <ul class="my-coupang-list">
+            <li><a href="/">주문목록</a></li>
+            <li><a href="/">취소/반품</a></li>
+            <li><a href="/">찜리스트</a></li>
+          </ul>
+        </div>
+        <div class="cart">
+          <button>장바구니</button>
+          <div class="product-number">0</div>
+          <div class="message">장바구니에 담긴 상품이 없습니다.</div>
+        </div>
+        <nav>
+          <ul>
+            <li>
+              <a href="/">
+                <img src="./assets/icon/icon-rocket.svg" alt="로켓배송">
+                로켓배송
+              </a>
+            </li>
+            <li>
+              <a href="/">
+                <img src="./assets/icon/icon-fresh.svg" alt="로켓프레시">
+                로켓프레시
+              </a>
+            </li>
+            <li>
+              <a href="/">
+                2022년 설날
+                <img src="./assets/icon/new.svg" alt="new">
+              </a>
+            </li>
+            <li>
+              <a href="/">
+                로켓직구
+              </a>
+            </li>
+            <li>
+              <a href="/">
+                골드박스
+              </a>
+            </li>
+            <li>
+              <a href="/">
+                정기배송
+              </a>
+            </li>
+            <li>
+              <a href="/">
+                이벤트/쿠폰
+              </a>
+            </li>
+            <li>
+              <a href="/">
+                기획전
+              </a>
+            </li>
+            <li>
+              <a href="/">
+                여행티켓
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+  </div>
+</body>
+</html>

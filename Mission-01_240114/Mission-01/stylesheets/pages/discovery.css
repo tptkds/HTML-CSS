@@ -1,0 +1,116 @@
+/* CSS 작성 */
+
+.container {
+    width: 1020px;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.top-header {
+    margin-top: 100px;
+    margin-bottom: 48px;
+}
+
+.main-section {
+    padding-bottom: 230px;
+}
+
+.main-section header {
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.main-section header h2 {
+    font-weight: 400;
+    font-size: 24px;
+}   
+
+.main-section header h3 {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--color-gray-600);
+}   
+
+.vertical-bar {
+    margin: 0 10px;
+    color: var(--color-gray-600);
+}
+
+.product-box-container{
+    margin-top: 24px;
+    overflow: hidden;
+}
+
+.product-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border: 1px solid var(--color-gray-500);
+    float: left;
+    height: 310px;
+    margin: 0 16px 16px 0;
+    width: 243px;
+}
+
+
+
+.in-button {
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    background-color: var(--color-black-20);
+    bottom: 20px;
+    left: 20px;
+    transition: background-color 0.2s;
+}
+
+.in-button::after {
+    position: absolute;
+    height: 100%;
+    content: url(../../assets/icon/angle-right-square.svg);
+    margin-top: 1.4px;
+}
+
+.product-box:hover {
+    border: 1px solid var(--color-blue-600);
+}
+
+.product-box:focus {
+    outline: 1px solid var(--color-blue-600);
+    outline-offset: -1px;
+}
+
+
+.product-box:hover .in-button{
+    background-color: var(--color-blue-600);
+    width: 112px;
+}
+
+.product-box:hover .in-button::after {
+    right: 0px
+
+}
+
+.product-box:hover .in-button::before {
+    position: absolute;
+    content: '구매하기';
+    color: var(--color-white);
+    font-size: 14px;
+    font-weight: 500;
+    left: 20px;
+    top: 25%;
+}  
+
+.product-box-large {
+    width: 502px;
+}
+
+.margin-right-zero {
+    margin-right: 0;
+}
+
+.margin-bottom-zero {
+    margin-bottom: 0;
+}
