@@ -67,4 +67,16 @@
   --color-purple-700: #382373;
   --color-purple-800: #25174D;
   --color-purple-900: #130C26;
+
+  --base-size:10px;
+  --font-family: 'Noto Sans KR', sans-serif;
+}
+
+html {
+  font-size: var(--base-size);
+}
+
+body {
+  color: var(--color-black);
+  background: var(--color-white);
 }
