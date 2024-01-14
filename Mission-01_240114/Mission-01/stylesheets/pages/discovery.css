@@ -29,7 +29,7 @@ header h1 a img {
     font-size: 24px;
 }   
 
-.main-section header h3 {
+.main-section header p {
     font-weight: 400;
     font-size: 16px;
     color: var(--color-gray-600);
@@ -85,18 +85,17 @@ header h1 a img {
     outline-offset: -1px;
 }
 
-
-.product-box:hover .in-button{
+.product-box:hover .in-button, .product-box:focus .in-button{
     background-color: var(--color-blue-600);
     width: 112px;
 }
 
-.product-box:hover .in-button::after {
+.product-box:hover .in-button::after, .product-box:focus .in-button::after{
     right: 0px
 
 }
 
-.product-box:hover .in-button::before {
+.product-box:hover .in-button::before, .product-box:focus .in-button::before {
     position: absolute;
     content: '구매하기';
     color: var(--color-white);
