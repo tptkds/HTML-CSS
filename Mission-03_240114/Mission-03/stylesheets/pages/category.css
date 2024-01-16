@@ -26,6 +26,7 @@ section {
 .category-best-product {
     display: flex;
     height: 631px;
+    
 }
 
 .category-best-product-left{
@@ -44,6 +45,8 @@ section {
 }
 
 .category-best-headline {
+    display: flex;
+    flex-direction: column-reverse;
     margin-bottom: 24px;
 }
 
@@ -68,11 +71,11 @@ section {
     border-bottom: 1.17px solid var(--color-brown-300);
 }
 
-article {
+.prev-article {
     padding-left: 24px;
 }
 
-article h3 {
+.prev-article h3 {
     margin-top: 48px;
     margin-bottom: 8px;
     color: var(--color-brown-300);
@@ -90,7 +93,8 @@ article h3 {
     margin-top: 248px;
 }
 
-.hashtag-box h4 {
+.hashtag-box strong {
+    display: block;
     font-size: 18px;
     font-weight: 500;
     margin-bottom: 20px;
@@ -176,7 +180,7 @@ article h3 {
     height: 160px;
 }
 
-.product-card h4 {
+.product-card a figure figcaption {
     margin-top: 12px;
     font-size: 14px;
     font-weight: 400;
@@ -231,4 +235,12 @@ article h3 {
     position: absolute;
     top: 316.53px;
 
+}
+
+.carousel__item {
+    visibility: hidden;
+}
+
+.carousel__item--active {
+    visibility:visible;
 }
